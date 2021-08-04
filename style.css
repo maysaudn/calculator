@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    font-size: 16px;
+}
+
+#container {
+    margin: auto;
+    padding: 1vh;
+    width: 42vh;
+    background-color: grey;
+    text-align: center;
+}
+
+#screen {
+    text-align: right;
+    background-color: #f4f4f4;
+    padding: 0.5vh;
+    width: 40vh;
+    margin: auto;
+    margin-top: 1.5vh;
+}
+
+#screen p {
+    font-size: 48px;
+    padding: 0;
+    margin: 0;
+}
+
+#calculator {
+    padding: 3vh;
+    display: grid;
+    grid-template-columns: repeat(4, 10vh);
+    justify-content: center;
+}
+
+button {
+    /* width: 10vh;
+    height: 10vh; */
+    margin: 0;
+    padding: auto;
+    font-size: 48px;
+}
+
+#zero {
+    grid-column: 1 / 2;
+}

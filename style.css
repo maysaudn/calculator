@@ -1,29 +1,39 @@
 body {
     text-align: center;
     font-size: 16px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.screenText {
+    font-size: 16px;
+    font-family: 'Barlow', sans-serif;
 }
 
 #container {
     margin: auto;
     padding: 1vh;
     width: 42vh;
-    background-color: grey;
+    background-color: #1E2019;
     text-align: center;
 }
 
 #screen {
     text-align: right;
-    background-color: #f4f4f4;
+    background-color: white;
     padding: 0.5vh;
     width: 40vh;
     margin: auto;
     margin-top: 1.5vh;
+    height: 54px;
+    font-size: 16px;
+    font-family: 'Barlow', sans-serif;
 }
 
 #screen p {
     font-size: 48px;
     padding: 0;
     margin: 0;
+    color: #74526C;
 }
 
 #calculator {
@@ -34,13 +44,42 @@ body {
 }
 
 button {
-    /* width: 10vh;
-    height: 10vh; */
-    margin: 0;
-    padding: auto;
+    margin: 1px;
     font-size: 48px;
+    border-style: none;
+    font-family: 'Barlow', sans-serif;
 }
 
 #zero {
     grid-column: 1 / 2;
+}
+
+.operators-2 {
+    background-color: #92DCE5;
+    color: #208AAE;
+}
+
+.operators-2:hover {
+    background-color: #208AAE;
+    color: #92DCE5;
+}
+
+.operators {
+    background-color: #208AAE;
+    color: #92DCE5;
+}
+
+.operators:hover {
+    background-color: #92DCE5;
+    color: #208AAE;
+}
+
+.numbers {
+    background-color: #74526C;
+    color: white;
+}
+
+.numbers:hover {
+    background-color: white;
+    color: #74526C;
 }
